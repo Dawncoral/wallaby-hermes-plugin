@@ -8,6 +8,7 @@ Wallaby is curated inference for open-weight models: per-token billing, itemized
 
 ```bash
 hermes plugins install Dawncoral/wallaby-hermes-plugin
+hermes plugins enable wallaby-provider
 ```
 
 Or by hand:
