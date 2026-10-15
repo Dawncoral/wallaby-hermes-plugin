@@ -8,8 +8,9 @@ Wallaby is curated inference for open-weight models: per-token billing, itemized
 
 ```bash
 hermes plugins install Dawncoral/wallaby-hermes-plugin
-hermes plugins enable wallaby-provider
 ```
+
+Answer `y` when it asks to enable the plugin (or run `hermes plugins enable wallaby-provider` later).
 
 Or by hand:
 
@@ -26,7 +27,7 @@ Run the wizard and pick **Wallaby**:
 hermes model
 ```
 
-It asks for your API key (create one at [wallabytoken.com](https://wallabytoken.com) — new accounts get the $0.50 trial credit) and stores it in your keychain. The Base URL defaults to Wallaby's endpoint — press Enter once more to accept it. Then pick `kimi-k3` as the model and press Enter again to confirm.
+It asks for your API key (create one at [wallabytoken.com](https://wallabytoken.com) — new accounts get the $0.50 trial credit) and stores it in your keychain. The Base URL defaults to Wallaby's endpoint — press Enter once more to accept it. Then pick `kimi-k3` as the model, press Enter again to confirm, and choose a reasoning effort when prompted (`medium` is a fine default).
 
 Tested on Hermes Agent v0.19.0.
 
